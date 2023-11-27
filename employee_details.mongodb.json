@@ -1,0 +1,80 @@
+[{
+  "_id": {
+    "$oid": "6560259c6f6ca3d8863f25ff"
+  },
+  "Name": "Preethika",
+  "Age": "50",
+  "Gender": "Female"
+},
+{
+  "_id": {
+    "$oid": "6560259c6f6ca3d8863f2600"
+  },
+  "Name": "Priya",
+  "Age": 26,
+  "Gender": "Female"
+},
+{
+  "_id": {
+    "$oid": "6560259c6f6ca3d8863f2601"
+  },
+  "Name": "Gloria",
+  "Age": 30,
+  "Gender": "Female"
+},
+{
+  "_id": {
+    "$oid": "6560259c6f6ca3d8863f2602"
+  },
+  "Name": "Claire",
+  "Age": 24,
+  "Gender": "Female"
+},
+{
+  "_id": {
+    "$oid": "656420a13007dae1fd751f86"
+  },
+  "Name": "Dev",
+  "Age": "20",
+  "Gender": "Male"
+},
+{
+  "_id": {
+    "$oid": "656420ac3007dae1fd751f87"
+  },
+  "Name": "Preethi Sundar",
+  "Age": "24",
+  "Gender": "Female"
+},
+{
+  "_id": {
+    "$oid": "656420b53007dae1fd751f88"
+  },
+  "Name": "Sundar",
+  "Age": "51",
+  "Gender": "Male"
+},
+{
+  "_id": {
+    "$oid": "656420be3007dae1fd751f89"
+  },
+  "Name": "Likhil",
+  "Age": "23",
+  "Gender": "Male"
+},
+{
+  "_id": {
+    "$oid": "656420c63007dae1fd751f8a"
+  },
+  "Name": "Lavin",
+  "Age": "24",
+  "Gender": "Male"
+},
+{
+  "_id": {
+    "$oid": "656420d03007dae1fd751f8b"
+  },
+  "Name": "Devi",
+  "Age": "55",
+  "Gender": "Female"
+}]

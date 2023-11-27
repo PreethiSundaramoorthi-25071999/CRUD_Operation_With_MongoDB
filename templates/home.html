@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,
+        th,
+        td{
+            border:2px solid black;
+            border-collapse:collapse
+        }
+    </style>
+</head>
+<body>
+    <form method="post">
+        <label for="Name">Name:</label>
+        <input type="text" name="Name"><br><br>
+
+        <label for="Age">Age:</label>
+        <input type="number" name="Age"><br><br>       
+
+        <label for="Gender">Gender:</label>
+        <input type="text" name="Gender"><br><br>
+
+        <input type="submit" name="submit">
+
+    </form>
+
+    <table>
+        <tr>
+            <th colspan="3">Employee Details</th>
+            <th colspan="2">Actions</th>
+        </tr>
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Gender</th>
+        </tr>
+        {%for i in datum%}
+        <tr>
+            <td>{{i.Name}}</td>
+            <td>{{i.Age}}</td>
+            <td>{{i.Gender}}</td>
+            <td><a href="{{url_for('edit',id=i._id)}}">Edit</a></td>
+            <td><a href="{{url_for('delete',id=i._id)}}">Delete</a></td>
+        </tr>
+        {%endfor%}
+    </table>
+</body>
+</html>
